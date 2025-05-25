@@ -1,0 +1,241 @@
+{
+  "dashboard": {
+    "greeting": "Witam, {{name}} 👋🏼",
+    "welcome": "Witamy z powrotem, dobrze cię widzieć!"
+  },
+  "appearance": {
+    "title": "Wygląd",
+    "light": "Motyw świetlny",
+    "dark": "Motyw ciemny",
+    "default": "Domyślnie"
+  },
+  "userMenu": {
+    "profile": "Mój profil",
+    "logout": "Wyjście"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "schedule": "Harmonogram pracy",
+    "chat": "Czat",
+    "direct": "Direct",
+    "items": "Items",
+    "blog": "Blog",
+    "calendar": "Kalendarz",
+    "settings": "Ustawienia",
+    "admin": "Admin"
+  },
+
+  "rooms": {
+    "heading": "Czaty",
+    "add": "Dodaj czat",
+    "view": "Wyświetl czat",
+    "update": "Edytuj czat",
+    "delete": "Usuń czat",
+    "deleteConfirmTitle": "Usuń czat",
+    "deleteConfirmBody": "Na pewno? Tego działania nie można cofnąć.",
+    "deleteSuccess": "Czat usunięty.",
+    "deleteError": "Coś poszło nie tak. Spróbuj ponownie.",
+    "unauthorized": "Nie masz uprawnień do wykonania tej akcji.",
+    "noRooms": "Czaty nie są dostępne.",
+    "active": "Aktywny",
+    "inactive": "Nieaktywny",
+    "channel": "Channel.",
+    "reviews": " recenzje"
+  },
+  "addRoom": {
+    "title": "Dodaj czat",
+    "name": "Nazwa czatu",
+    "namePlaceholder": "Nazwa czatu",
+    "description": "Opis",
+    "descriptionPlaceholder": "Opis",
+    "image": "Obraz",
+    "upload": "Prześlij obraz",
+    "status": "Status",
+    "isChannel": "Kanal?",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "success": "Czat został pomyślnie utworzony",
+    "imageUploadError": "Nie można przesłać obrazu"
+  },
+  "editRoom": {
+    "title": "Edytuj czat",
+    "name": "Nazwa czatu",
+    "namePlaceholder": "Nazwa czatu",
+    "description": "Opis",
+    "descriptionPlaceholder": "Opis",
+    "image": "Obraz",
+    "upload": "Prześlij obraz",
+    "currentImage": "Obraz",
+    "status": "Status",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "success": "Czat został pomyślnie zaktualizowany",
+    "imageUploadError": "Nie można przesłać obrazu"
+  },
+  "items": {
+    "heading": "Zarządzanie przedmiotami",
+    "loadingLanguages": "Ładowanie języków...",
+    "noLanguages": "Brak dostępnych języków do wyświetlenia.",
+    "searchPlaceholder": "Szukaj...",
+    "allCategories": "Wszystkie kategorie",
+    "position": "Pozycja",
+    "title": "Tytuł",
+    "images": "Obrazy",
+    "category": "Kategoria",
+    "price": "Cena",
+    "quantity": "Quantity",
+    "status": "Status",
+    "actions": "Działania",
+    "noCategory": "Brak kategorii",
+    "active": "Aktywny",
+    "inactive": "Nieaktywny",
+    "na": "N/A",
+    "buttonItem": "Produkt"
+  },
+  "product": {
+    "backToList": "Powrót do listy produktów",
+    "notFound": "Produkt nie został znaleziony lub wystąpił błąd.",
+    "title": "Tytuł",
+    "category": "Kategoria",
+    "noCategory": "Brak kategorii",
+    "language": "Język",
+    "meta": "Meta",
+    "content": "Opis",
+    "showMore": "Pokaż więcej",
+    "showLess": "Ukryj",
+    "images": "Obrazy",
+    "cost": "Koszt",
+    "quantity": "Ilość",
+    "url": "Link",
+    "noUrl": "Brak linku",
+    "position": "Pozycja",
+    "status": "Status",
+    "active": "Aktywny",
+    "inactive": "Nieaktywny",
+    "updated": "Status zaktualizowany"
+  },
+  "properties": {
+    "title": "Zarządzanie właściwościami",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "edit": "Edytuj",
+    "success": "Właściwości zaktualizowane",
+    "error": "Coś poszło nie tak",
+    "keys": {
+      "height": "Wysokość",
+      "width": "Szerokość",
+      "depth": "Głębokość",
+      "weight": "Waga",
+      "size": "Rozmiar",
+      "color": "Kolor",
+      "material": "Materiał",
+      "brand": "Marka",
+      "model": "Model",
+      "style": "Stile"
+    }
+  },
+  "blog": {
+    "heading": "Zarządzanie blogiem",
+    "position": "Pozycja",
+    "title": "Tytuł",
+    "content": "Treść",
+    "images": "Obrazy",
+    "status": "Status",
+    "actions": "Działania",
+    "active": "Aktywny",
+    "inactive": "Nieaktywny",
+    "noPosts": "Brak dostępnych postów.",
+    "buttonAdd": "Blog"
+  },
+  "admin": {
+    "heading": "Zarządzanie użytkownikami",
+    "fullName": "Imię i nazwisko",
+    "acronym": "Akronim",
+    "email": "Email",
+    "role": "Rola",
+    "status": "Status",
+    "actions": "Działania",
+    "noName": "N/A",
+    "superUser": "Superużytkownik",
+    "admin": "Administrator",
+    "user": "Użytkownik",
+    "active": "Aktywny",
+    "inactive": "Nieaktywny",
+    "buttonUser": "Użytkownika",
+    "buttonAdd": "Dodaj"
+  },
+  "addUser": {
+    "title": "Dodaj użytkownika",
+    "email": "E-mail",
+    "emailPlaceholder": "Email",
+    "fullName": "Imię i nazwisko",
+    "fullNamePlaceholder": "Imię i nazwisko",
+    "acronym": "Akronim",
+    "acronymPlaceholder": "AKRONIM",
+    "password": "Hasło",
+    "passwordPlaceholder": "Hasło",
+    "confirmPassword": "Potwierdź hasło",
+    "confirmPasswordPlaceholder": "Hasło",
+    "isSuperUser": "Superużytkownik",
+    "isAdmin": "Administrator",
+    "isActive": "Aktywny",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "success": "Użytkownik został pomyślnie utworzony",
+    "errors": {
+      "emailRequired": "Email jest wymagany",
+      "passwordRequired": "Hasło jest wymagane",
+      "passwordMin": "Hasło musi mieć co najmniej 8 znaków",
+      "confirmRequired": "Potwierdź hasło",
+      "passwordMismatch": "Hasła nie pasują"
+    }
+  },
+  "settings": {
+    "heading": "Ustawienia użytkownika",
+    "tabs": {
+      "profile": "Mój profil",
+      "password": "Hasło",
+      "appearance": "Wygląd",
+      "danger": "Niebezpieczna strefa"
+    }
+  },
+  "actionsMenu": {
+    "delete": "Usuń {{type}}",
+    "types": {
+      "User": "użytkownika",
+      "Item": "produkt",
+      "Post": "post"
+    }
+  },
+  "userInfo": {
+    "heading": "Mój profil",
+    "fullName": "Imię i nazwisko",
+    "email": "Email",
+    "edit": "Edytuj",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "noName": "Nie podano",
+    "avatarAlt": "Awatar",
+    "permissionDenied": "Dostęp zabroniony",
+    "superuserOnly": "Tylko dla superużytkowników",
+    "avatarSuccess": "Awatar zaktualizowany",
+    "userUpdateSuccess": "Użytkownik zaktualizowany",
+    "userUpdateError": "Nie można zaktualizować użytkownika",
+    "emailRequired": "Email jest wymagany"
+  },
+  "changePassword": {
+    "heading": "Zmiana hasła",
+    "currentPassword": "Aktualne hasło",
+    "newPassword": "Nowe hasło",
+    "confirmPassword": "Potwierdź hasło",
+    "placeholder": "Hasło",
+    "success": "Hasło zaktualizowane pomyślnie.",
+    "save": "Zapisz"
+  },
+  "pagination": {
+    "previous": "Poprzednia",
+    "page": "Strona",
+    "next": "Następna"
+  }
+}
+

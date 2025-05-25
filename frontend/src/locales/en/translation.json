@@ -1,0 +1,239 @@
+{
+  "dashboard": {
+    "greeting": "Hi, {{name}} 👋🏼",
+    "welcome": "Welcome back, nice to see you again!"
+  },
+  "appearance": {
+    "title": "Appearance",
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "default": "Default"
+  },
+  "userMenu": {
+    "profile": "My profile",
+    "logout": "Log out"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "schedule": "Work Scheduler",
+    "chat": "Chat",
+    "direct": "Direct",
+    "items": "Items",
+    "blog": "Blog",
+    "calendar": "Calendar",
+    "settings": "User Settings",
+    "admin": "Admin"
+  },
+  "rooms": {
+    "heading": "Chat Rooms",
+    "add": "Add room",
+    "view": "View Room",
+    "update": "Edit Room",
+    "delete": "Delete room",
+    "deleteConfirmTitle": "Delete Room",
+    "deleteConfirmBody": "Are you sure? This action cannot be undone.",
+    "deleteSuccess": "Room deleted.",
+    "deleteError": "Something went wrong. Please try again.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "noRooms": "No rooms available.",
+    "active": "Active",
+    "inactive": "Inactive",
+    "channel": "Channel",
+    "reviews": "reviews"
+  },
+  "addRoom": {
+    "title": "Add Room",
+    "name": "Room Name",
+    "namePlaceholder": "Room Name",
+    "description": "Description",
+    "descriptionPlaceholder": "Description",
+    "image": "Image",
+    "upload": "Upload Image",
+    "status": "Status",
+    "isChannel": "Channel?",
+    "save": "Save",
+    "cancel": "Cancel",
+    "success": "Room created successfully",
+    "imageUploadError": "Could not upload image"
+  },
+  "editRoom": {
+    "title": "Edit Room",
+    "name": "Room Name",
+    "namePlaceholder": "Room Name",
+    "description": "Description",
+    "descriptionPlaceholder": "Description",
+    "image": "Image",
+    "upload": "Upload Image",
+    "currentImage": "Current Image",
+    "status": "Status",
+    "save": "Save",
+    "cancel": "Cancel",
+    "success": "Room updated successfully",
+    "imageUploadError": "Could not upload image"
+  },
+  "items": {
+    "heading": "Items Management",
+    "loadingLanguages": "Loading languages...",
+    "noLanguages": "No languages available to display.",
+    "searchPlaceholder": "Search...",
+    "allCategories": "All categories",
+    "position": "Position",
+    "title": "Title",
+    "images": "Images",
+    "category": "Category",
+    "price": "Price",
+    "quantity": "Quantity",
+    "status": "Status",
+    "actions": "Actions",
+    "noCategory": "No Category",
+    "active": "Active",
+    "inactive": "Inactive",
+    "na": "N/A",
+    "buttonItem": "Item"
+  },
+  "product": {
+    "backToList": "Back to Product List",
+    "notFound": "The product was not found or an error occurred.",
+    "title": "Title",
+    "category": "Category",
+    "noCategory": "No category",
+    "language": "Language",
+    "meta": "Meta",
+    "content": "Description",
+    "showMore": "Show More",
+    "showLess": "Hide",
+    "images": "Images",
+    "cost": "Price",
+    "quantity": "Quantity",
+    "url": "Link",
+    "noUrl": "No link",
+    "position": "Position",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "updated": "Status updated"
+  },
+  "properties": {
+    "title": "Property",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "success": "Property updated",
+    "error": "Something went wrong",
+    "keys": {
+      "height": "Height",
+      "width": "Width",
+      "weight": "Weight",
+      "color": "Color",
+      "material": "Material",
+      "brand": "Brand",
+      "size": "Size",
+      "motif": "Motif",
+      "style": "Stile"
+    }
+  },
+  "blog": {
+    "heading": "Blog Management",
+    "position": "Position",
+    "title": "Title",
+    "content": "Content",
+    "images": "Images",
+    "status": "Status",
+    "actions": "Actions",
+    "active": "Active",
+    "inactive": "Inactive",
+    "noPosts": "No posts available.",
+    "buttonAdd": "Blog"
+  },
+  "admin": {
+    "heading": "Users Management",
+    "fullName": "Full Name",
+    "acronym": "Acronym",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status",
+    "actions": "Actions",
+    "na": "N/A",
+    "superUser": "Superuser",
+    "admin": "Admin",
+    "user": "User",
+    "active": "Active",
+    "inactive": "Inactive",
+    "buttonUser": "User",
+    "buttonAdd": "Add"
+  },
+  "addUser": {
+    "title": "Add User",
+    "email": "Email",
+    "emailPlaceholder": "Email",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Full Name",
+    "acronym": "Acronym",
+    "acronymPlaceholder": "ACRONYM",
+    "password": "password",
+    "passwordPlaceholder": "Password",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Password",
+    "isSuperUser": "Superuser",
+    "isAdmin": "Admin",
+    "isActive": "Active",
+    "save": "Save",
+    "cancel": "Cancel",
+    "success": "User created successfully",
+    "errors": {
+      "emailRequired": "Email is required",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 8 characters",
+      "confirmRequired": "Confirm password",
+      "passwordMismatch": "Passwords do not match"
+    }
+  },
+  "settings": {
+      "heading": "User Settings",
+      "tabs": {
+        "profile": "My profile",
+        "password": "Password",
+        "appearance": "Appearance",
+        "danger": "Danger Zone"
+    }
+  },
+  "actionsMenu": {
+    "delete": "Delete {{type}}",
+    "types": {
+      "User": "user",
+      "Item": "item",
+      "Post": "post"
+    }
+  },
+  "userInfo": {
+    "heading": "User Info",
+    "fullName": "Full Name",
+    "email": "Email",
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "noName": "N/A",
+    "avatarAlt": "Avatar",
+    "permissionDenied": "Permission Denied",
+    "superuserOnly": "Superuser Only",
+    "avatarSuccess": "Avatar updated",
+    "userUpdateSuccess": "User updated",
+    "userUpdateError": "Could not update user",
+    "emailRequired": "Email is required"
+  },
+  "changePassword": {
+    "heading": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "Set Password",
+    "confirmPassword": "Confirm Password",
+    "placeholder": "Password",
+    "success": "Password updated successfully.",
+    "save": "Save"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "page": "Page",
+    "next": "Next"
+  }
+
+}

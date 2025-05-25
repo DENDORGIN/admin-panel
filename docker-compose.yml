@@ -1,0 +1,29 @@
+
+
+services:
+  backend:
+    container_name: dbgone-backend
+    build:
+      context: ./backend
+    ports:
+      - "5180:5180"
+    env_file:
+      - .env.production
+    restart: always
+
+  frontend:
+    container_name: dbgone-frontend
+    build:
+      context: ./frontend
+    ports:
+      - "5173:80"
+    env_file:
+      - .env.production
+    depends_on:
+      - backend
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
