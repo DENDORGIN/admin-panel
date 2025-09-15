@@ -51,7 +51,7 @@
     "@biomejs/biome": "1.9.4",
     "@hey-api/openapi-ts": "^0.67.3",
     "@playwright/test": "^1.52.0",
-    "@tanstack/router-devtools": "1.19.1",
+    "@tanstack/router-devtools": "1.131.44",
     "@tanstack/router-vite-plugin": "1.120.10",
     "@types/js-cookie": "^3.0.6",
     "@types/node": "^22.15.17",
