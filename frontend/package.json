@@ -30,7 +30,7 @@
     "dompurify": "^3.2.5",
     "emoji-mart": "^5.6.0",
     "form-data": "4.0.2",
-    "framer-motion": "^12.12.1",
+    "framer-motion": "^12.23.22",
     "i18next": "^25.1.2",
     "i18next-browser-languagedetector": "^8.1.0",
     "js-cookie": "^3.0.5",
